@@ -47,6 +47,7 @@ public class AlignToGroundForwardDirection : MonoBehaviour
             Physics.Raycast(newRay, out RaycastHit newHit);
             Gizmos.DrawLine(hit.point, newHit.point);
         }
+        
     }
     
 }
